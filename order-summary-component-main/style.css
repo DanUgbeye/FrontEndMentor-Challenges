@@ -148,9 +148,9 @@ h3{
     color: hsl(224, 23%, 55%);
     font-weight: 700;
     cursor: pointer;
-    display: inline-block;
-    max-width: fit-content;
+    width: 100px;
     display: flex;
+    text-align: center;
     margin: 0 auto;
 }
 
