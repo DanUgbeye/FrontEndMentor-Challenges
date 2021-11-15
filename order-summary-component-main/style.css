@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: (https://fonts.google.com/specimen/Red+Hat+Display); */
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+  background: hsl(225, 100%, 94%);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body > img{
+  position: relative;
+  top: -10%;
+  left: 0;
+  height: 350px;
+  width: 100%;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+}
+
+.order > p{
+    padding: 20px;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+  width: 375px;
+  height: 80%;
+  background-color: white;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.container > img{
+    height: 35%;
+}
+
+.order{
+  padding: 20px;
+  height: 70%;
+  position: relative;
+}
+
+.music{
+    background-color: hsl(225, 100%, 98%);
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.music > img{
+    width: 35px;
+    height: 35px;
+}
+
+.music > div{
+    font-weight: 700;
+}
+
+.music > div > span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.music > p{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    display: inline-block;
+    margin: auto 0;
+    font-weight: 700;
+    width: 33%;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+.music > p:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.order > button{
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    color: white;
+    outline: 0;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 10px 20px hsl(224, 23%, 75%);
+}
+
+.order > button:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.order > .last{
+    padding: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.order > .last:hover{
+    color: black;
+}
